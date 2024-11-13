@@ -6,7 +6,7 @@ body {
   background-color: black;
   color: white;
   margin: 0;
-  background-image: url("/characters/cyber-anime.jpeg");
+  background-image: url("/bg-image/cyber-anime.jpeg");
   background-size: cover;
 }
 
