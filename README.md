@@ -1,8 +1,3 @@
-# React + Vite
+# Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple memory game built using the React library and vite. The game works as follows: the player is shown six different cards each round. Each time the player selects a card that has not been chosen during the current round, they earn one point, and the cards are shuffled. To win the game with a perfect score, the player must choose every card without repetition. Selecting a card that has already been chosen results in an immediate loss, and the game resets.
